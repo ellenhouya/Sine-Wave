@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas {
+  background: radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("./3693187.jpg") center/cover no-repeat;
+}
+
+.textWrapper {
+  position: absolute;
+  width: 75%;
+  max-width: 710px;
+  height: 50%;
+  max-height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 2.5rem;
+  margin-top: 80px;
+}
+
+.textCon {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  mix-blend-mode: exclusion;
+  font-size: 25px;
+  margin-right: -20%;
+}
+
+.textCon > h1 {
+  font-family: "Londrina Outline", cursive;
+  letter-spacing: 10px;
+  font-size: 60px;
+  margin-bottom: 100px;
+}
+
+.textCon2 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 22px;
+  color: #fff;
+  mix-blend-mode: exclusion;
+  max-width: 400px;
+  margin-top: -50px;
+}
+
+.textCon2 h3 {
+  font-family: "Londrina Outline", cursive;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
