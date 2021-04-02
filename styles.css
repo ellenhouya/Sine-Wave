@@ -69,3 +69,9 @@ body {
   font-size: 40px;
   letter-spacing: 5px;
 }
+
+.reference {
+  position: absolute;
+  color: #000;
+  bottom: 4%;
+}
